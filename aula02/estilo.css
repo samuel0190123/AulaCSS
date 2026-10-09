@@ -1,0 +1,55 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+}
+
+h1
+{
+    color : white;
+    background-color: #009691;
+    text-align: center;
+    margin : 0;
+    padding: 20px;
+}
+
+.conteudo
+{
+    font-size: 20px;
+    margin : 10px;
+    padding: 10px;
+}
+
+.subtitulo
+{
+    font-size: 30px;
+    color : #004d96;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.exemplo1 
+{
+    border: 1px solid #960000;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.centralizado
+{
+    display: flex;
+    justify-content: center;
+}
+
+.inicio
+{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.fim
+{
+    display: flex;
+    justify-content: flex-end;
+}
