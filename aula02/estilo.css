@@ -53,3 +53,16 @@ h1
     display: flex;
     justify-content: flex-end;
 }
+
+.around
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.between
+{
+    display: flex;
+    justify-content: space-between;
+}
+
