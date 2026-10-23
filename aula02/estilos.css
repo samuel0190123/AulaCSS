@@ -1,13 +1,13 @@
-body 
+body
 {
-    margin: 0;
+    margin : 0;
     padding: 0;
 }
 
 h1
 {
     color : white;
-    background-color: #009691;
+    background-color: #960000;
     text-align: center;
     margin : 0;
     padding: 20px;
@@ -23,12 +23,12 @@ h1
 .subtitulo
 {
     font-size: 30px;
-    color : #004d96;
+    color : #960000;
     font-weight: bold;
     text-decoration: underline;
 }
 
-.exemplo1 
+.exemplo1
 {
     border: 1px solid #960000;
     border-radius: 10px;
@@ -44,8 +44,8 @@ h1
 
 .inicio
 {
-    display: flex;
-    justify-content: flex-start;
+display: flex;
+justify-content: flex-start;
 }
 
 .fim
@@ -66,3 +66,31 @@ h1
     justify-content: space-between;
 }
 
+
+.exemplo2
+{
+    border: 1px solid #960000;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+
+    height: 300px;
+}
+
+.meio
+{
+    display: flex;
+    align-items: center;
+}
+
+.topo
+{
+    display: flex;
+    align-items: flex-start;
+}
+
+.rodape
+{
+    display: flex;
+    align-items: flex-end;
+}
